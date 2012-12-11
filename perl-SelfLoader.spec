@@ -66,3 +66,27 @@ rm -rf %buildroot
 %{_mandir}/man3/*
 %perl_vendorlib/*
 
+
+
+%changelog
+* Sat Apr 23 2011 Funda Wang <fwang@mandriva.org> 1.180.0-2mdv2011.0
++ Revision: 656964
+- rebuild for updated spec-helper
+
+* Sun Nov 28 2010 Guillaume Rousse <guillomovitch@mandriva.org> 1.180.0-1mdv2011.0
++ Revision: 602390
+- update to new version 1.18
+
+* Tue Jul 28 2009 Jérôme Quelin <jquelin@mandriva.org> 1.170.0-1mdv2010.0
++ Revision: 401611
+- rebuild using %%perl_convert_version
+- fixed license field
+
+* Mon May 11 2009 Jérôme Quelin <jquelin@mandriva.org> 1.17-1mdv2010.0
++ Revision: 374387
+- import perl-SelfLoader
+
+
+* Mon May 11 2009 cpan2dist 1.17-1mdv
+- initial mdv release, generated with cpan2dist
+
